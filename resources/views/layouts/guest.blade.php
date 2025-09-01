@@ -14,7 +14,10 @@
     <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
 
-    <!-- Scripts -->
+    <!-- Bootstrap CSS (CDN) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Vite compiled CSS/JS (uses public/build/manifest.json) -->
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 
     <style>
@@ -113,6 +116,9 @@
             {{ $slot }}
         </main>
     </div>
+
+    <!-- Bootstrap JS (CDN) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
 
     <script>
         // Form validation and UX enhancements
